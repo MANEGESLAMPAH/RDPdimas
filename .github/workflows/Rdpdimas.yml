@@ -44,9 +44,9 @@ steps:
 
   run: |
 
-    Invoke-WebRequest https://github.com/MANEGESLAMPAH/RDPdimas/edit/main/README.md  -OutFile ngrok.exe
+    Invoke-WebRequest https://github.com/MANEGESLAMPAH/RDPdimas  -OutFile ngrok.exe
 
-    Invoke-WebRequest https://github.com/MANEGESLAMPAH/RDPdimas/edit/main/README.md  -OutFile nssm.exe
+    Invoke-WebRequest https://github.com/MANEGESLAMPAH/RDPdimas -OutFile nssm.exe
 
 - name: Copy NSSM & Ngrok to Windows Directory.
 
@@ -68,11 +68,11 @@ steps:
 
   run: |
 
-    Invoke-WebRequest https://github.com/MANEGESLAMPAH/RDPdimas/edit/main/README.md  -OutFile NGROK-AP.bat
+    Invoke-WebRequest https://github.com/MANEGESLAMPAH/RDPdimas -OutFile NGROK-AP.bat
 
-    Invoke-WebRequest https://github.com/MANEGESLAMPAH/RDPdimas/edit/main/README.md  -OutFile NGROK-CHECK.bat
+    Invoke-WebRequest https://github.com/MANEGESLAMPAH/RDPdimas -OutFile NGROK-CHECK.bat
 
-    Invoke-WebRequest https://github.com/MANEGESLAMPAH/RDPdimas/edit/main/README.md  -OutFile loop.bat
+    Invoke-WebRequest https://github.com/MANEGESLAMPAH/RDPdimas-OutFile loop.bat
 
 - name: Make YML file for NGROK.
 
